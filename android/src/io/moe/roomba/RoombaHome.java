@@ -143,8 +143,11 @@ public class RoombaHome extends Activity {
 
         private void handleTransferedData(Intent intent, boolean receiving) {
             final byte[] newTransferedData = intent.getByteArrayExtra(ArduinoCommunicatorService.DATA_EXTRA);
-
-
+            try {
+                Toast.makeText(RoombaHome.this, new String(newTransferedData, "US-ASCII"), Toast.LENGTH_SHORT).show();
+            } catch (Exception ex) {
+                //
+            }
         }
 
         @Override
