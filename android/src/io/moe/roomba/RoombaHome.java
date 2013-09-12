@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import java.io.UnsupportedEncodingException;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -140,13 +141,22 @@ public class RoombaHome extends Activity {
 
 
     BroadcastReceiver mReceiver = new BroadcastReceiver() {
+        private String currentStr = "";
 
         private void handleTransferedData(Intent intent, boolean receiving) {
             final byte[] newTransferedData = intent.getByteArrayExtra(ArduinoCommunicatorService.DATA_EXTRA);
-            try {
-                Toast.makeText(RoombaHome.this, new String(newTransferedData, "US-ASCII"), Toast.LENGTH_SHORT).show();
-            } catch (Exception ex) {
-                //
+
+            for (byte b : newTransferedData) {
+                if (b == 0x03) {
+                    Toast.makeText(RoombaHome.this, currentStr, Toast.LENGTH_SHORT).show();
+                    currentStr = "";
+                } else {
+                    try {
+                        currentStr += new String(new byte[]{b}, "US-ASCII");
+                    } catch (UnsupportedEncodingException e) {
+                        //
+                    }
+                }
             }
         }
 

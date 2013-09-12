@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="134b3bb3-30d9-488c-8da9-6d3f01cceeb2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/moe/roomba/RoombaHome.java" afterPath="$PROJECT_DIR$/src/io/moe/roomba/RoombaHome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Arduino-Communicator.iws" />
@@ -95,20 +91,20 @@
       <file leaf-file-name="RoombaHome.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/moe/roomba/RoombaHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="148" column="18" selection-start="6773" selection-end="6773" vertical-scroll-proportion="0.45754716" vertical-offset="1929" max-vertical-offset="2865">
+            <state line="159" column="13" selection-start="7147" selection-end="7147" vertical-scroll-proportion="0.83125" vertical-offset="2119" max-vertical-offset="3015">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1720#1902#0" expanded="true" />
-                <element signature="e#1891#1892#0" expanded="true" />
-                <element signature="e#2005#2186#0" expanded="true" />
-                <element signature="e#2175#2176#0" expanded="true" />
-                <element signature="e#3960#3985#0" expanded="true" />
-                <element signature="e#4236#4261#0" expanded="true" />
-                <element signature="e#4518#4543#0" expanded="true" />
-                <element signature="e#4788#4813#0" expanded="true" />
-                <element signature="e#5078#5103#0" expanded="true" />
-                <element signature="e#5362#5387#0" expanded="true" />
-                <element signature="e#5675#5710#0" expanded="true" />
+                <element signature="e#1765#1947#0" expanded="true" />
+                <element signature="e#1936#1937#0" expanded="true" />
+                <element signature="e#2050#2231#0" expanded="true" />
+                <element signature="e#2220#2221#0" expanded="true" />
+                <element signature="e#4005#4030#0" expanded="true" />
+                <element signature="e#4281#4306#0" expanded="true" />
+                <element signature="e#4563#4588#0" expanded="true" />
+                <element signature="e#4833#4858#0" expanded="true" />
+                <element signature="e#5123#5148#0" expanded="true" />
+                <element signature="e#5407#5432#0" expanded="true" />
+                <element signature="e#5720#5755#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,7 +125,7 @@
       <file leaf-file-name="ArduinoCommunicatorService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/moe/roomba/ArduinoCommunicatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="56" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="3555">
+            <state line="82" column="56" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3555">
               <folding />
             </state>
           </provider>
@@ -522,6 +518,11 @@
       <created>1378934795866</created>
       <updated>1378934795866</updated>
     </task>
+    <task id="LOCAL-00001" summary="Toast shows incoming toast">
+      <created>1379024267252</created>
+      <updated>1379024267252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -541,7 +542,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45014244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45014244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -563,6 +564,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Toast shows incoming toast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toast shows incoming toast" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -643,13 +646,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/moe/roomba/ArduinoCommunicatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="56" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="3555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Arduino-Communicator.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="37" selection-start="328" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -673,22 +669,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/moe/roomba/ArduinoCommunicatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="56" selection-start="3026" selection-end="3026" vertical-scroll-proportion="0.0" vertical-offset="633" max-vertical-offset="3555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/moe/roomba/RoombaHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="18" selection-start="6773" selection-end="6773" vertical-scroll-proportion="0.45754716" vertical-offset="1929" max-vertical-offset="2865">
+        <state line="159" column="13" selection-start="7147" selection-end="7147" vertical-scroll-proportion="0.83125" vertical-offset="2119" max-vertical-offset="3015">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1720#1902#0" expanded="true" />
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#2005#2186#0" expanded="true" />
-            <element signature="e#2175#2176#0" expanded="true" />
-            <element signature="e#3960#3985#0" expanded="true" />
-            <element signature="e#4236#4261#0" expanded="true" />
-            <element signature="e#4518#4543#0" expanded="true" />
-            <element signature="e#4788#4813#0" expanded="true" />
-            <element signature="e#5078#5103#0" expanded="true" />
-            <element signature="e#5362#5387#0" expanded="true" />
-            <element signature="e#5675#5710#0" expanded="true" />
+            <element signature="e#1765#1947#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+            <element signature="e#2050#2231#0" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+            <element signature="e#4005#4030#0" expanded="true" />
+            <element signature="e#4281#4306#0" expanded="true" />
+            <element signature="e#4563#4588#0" expanded="true" />
+            <element signature="e#4833#4858#0" expanded="true" />
+            <element signature="e#5123#5148#0" expanded="true" />
+            <element signature="e#5407#5432#0" expanded="true" />
+            <element signature="e#5720#5755#0" expanded="true" />
           </folding>
         </state>
       </provider>
