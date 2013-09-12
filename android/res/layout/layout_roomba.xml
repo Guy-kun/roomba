@@ -4,4 +4,17 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Clean"
+        android:id="@+id/home_button_clean"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dock"
+        android:id="@+id/home_button_dock" />
 </LinearLayout>

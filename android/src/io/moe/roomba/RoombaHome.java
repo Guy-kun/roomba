@@ -10,6 +10,7 @@ import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -45,7 +46,19 @@ public class RoombaHome extends Activity {
         registerReceiver(mReceiver, filter);
 
         Button clean = (Button) findViewById(R.id.home_button_clean);
+        clean.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendBroadcastString("CLEAN", RoombaHome.this);
+            }
+        });
         Button dock = (Button) findViewById(R.id.home_button_dock);
+        dock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendBroadcastString("DOCK", RoombaHome.this);
+            }
+        });
     }
 
     @Override
