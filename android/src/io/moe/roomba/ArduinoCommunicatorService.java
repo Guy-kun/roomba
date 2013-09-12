@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.primavera.arduino.listener;
+package io.moe.roomba;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;
