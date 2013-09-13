@@ -5,16 +5,16 @@ void setup()
 {
   Serial.begin(9600);
   Roomba.begin(115200);
-  Serial.println ("Sending start command...");
+  sendPacket("Sending start command...");
   delay (1000);
    // set up ROI to receive commands  
   start();
   delay(150);
-  Serial.println ("Sending Safe Mode command...");
+  sendPacket("Sending Safe Mode command...");
   delay (1000);
   safe();  // CONTROL
   delay(150);
-  Serial.println ("Setup Finished");
+  sendPacket ("Setup Finished");
   delay (500);
 }
 
@@ -25,6 +25,18 @@ char incBuf[2] = {};
 //complete packet that is to be processed
 String incomingPacket="";
 unsigned char PACKET_END_CHAR = 0x03;
+
+void sendPacket(char* str)
+{
+  Serial.write(str);
+  Serial.write(PACKET_END_CHAR);
+}
+
+void sendPacket(String str)
+{
+  Serial.print(str);
+  Serial.write(PACKET_END_CHAR);
+}
 
 void loop() { 
   while (Serial.available())
@@ -46,13 +58,13 @@ void loop() {
     //Process incoming packet
     if (incomingPacket== "CLEAN")
     {
-      Serial.println ("Clean Command Sent");
+      sendPacket("Clean Command Sent");
       clean();
       delay (500);
     }
     if (incomingPacket== "DOCK")
     {
-      Serial.println ("Dock Command Sent");
+      sendPacket("Dock Command Sent");
       dock();
       delay (500);
     }
